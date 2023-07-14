@@ -17,4 +17,5 @@ async def info():
 @my_api.get("/item")
 async def item():
     return {"item_id": "0001",
-            "item_name": "name"}
+            "item_name": "name",
+            "item_number": "2"}
