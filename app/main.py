@@ -19,3 +19,11 @@ async def item():
     return {"item_id": "0001",
             "item_name": "name",
             "item_number": "2"}
+
+
+# -- endpoint: get on /about
+@my_api.get("/about")
+async def about():
+    return {"author": "thekangaroofactory",
+            "date": "15/07/2023",
+            "version": "1"}
