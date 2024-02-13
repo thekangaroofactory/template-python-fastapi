@@ -9,7 +9,7 @@ my_api = FastAPI()
 @my_api.get("/")
 async def info():
     return {"message": "Welcome to my_api",
-            "version": "0.0.900"}
+            "version": "0.0.9000"}
 
 
 # -- endpoint: get on /item
@@ -24,5 +24,4 @@ async def item():
 @my_api.get("/about")
 async def about():
     return {"author": "thekangaroofactory",
-            "date": "15/07/2023",
-            "version": "1"}
+            "date": "15/07/2023"}
